@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Libre+Baskerville&family=Playwrite+AU+SA:wght@100..400&family=Ubuntu:wght@500&display=swap');
+.header {
+    width: 500px;
+    height: 500px;
+}
+body{
+    text-align: center;
+    margin: 0px;
+    background-color: #E8ECD7;
+}
+.pro {
+    text-decoration: underline;
+}
+.top {
+    color: #E8ECD7;
+    font-family: "Playwrite Au SA" ;
+    font-weight:bolder;
+}
+.top-container {
+    background-color: #0d2c31;
+    position: relative;
+    padding-top: 50px;
+}
+h1 {
+    font-size: 4rem;
+}
+.my-pic{
+    border-radius: 48%;
+}
+.mid-container{
+    margin: 100px;
+}
+.intro {
+    width: 30%;
+    margin: auto;
+    line-height: 2;
+    font-family: "Ubuntu", serif;
+ }  
+ .mid-container  {
+    font-family: "Ubuntu", serif ;
+    color:#47663B;
+ }
+hr {
+    border: dotted #EED3B1 10px;
+    border-bottom: none;
+    width: 8%;
+    margin: 100px auto;
+}
+.bot-container{
+    font-family: "Ubuntu", serif ;
+    color:#47663B;
+}
+.parent {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    background-color: #EED3B1;
+    place-items: left;
+    width: 50%;
+    text-align: left;
+    margin: auto;
+}  
+.btn {
+    background-color: #1F4529;
+    border-radius: 8px;
+    text-decoration: none;
+    color: #EED3B1;
+    padding:  10px 20px 10px 20px;
+    a:hover {color: red}
+}
+.parent > * {
+    padding: 10px;
+}
+a:hover {
+    background-color: #47663B;
+  }
+.foot {
+    background-color: #0d2c31;
+    padding: 50px 0 30px;
+    margin-top: 20px;
+}
+  
+footer{
+    padding: 20px;
+    color: #EED3B1 ;
+}
